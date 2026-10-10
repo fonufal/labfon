@@ -152,3 +152,8 @@
  .context-tags{display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;padding:12px 6% 20px;margin:0;font-size:10px;line-height:1.5;letter-spacing:.09em;max-width:100%}
  .context-tags span{display:inline-block;white-space:nowrap}
 }
+
+/* People postgraduate academic level and external profile appear in a distinct row. */
+.person-meta{display:flex;align-items:baseline;flex-wrap:wrap;column-gap:18px;row-gap:8px;margin-top:12px}
+.person-meta .people-external{margin-top:0}
+@media(max-width:600px){.person-meta{column-gap:18px;row-gap:10px}}
